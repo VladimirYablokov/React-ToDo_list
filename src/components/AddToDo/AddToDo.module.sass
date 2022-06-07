@@ -1,0 +1,21 @@
+.form
+    display: grid
+    grid-template-columns: 1fr
+    grid-gap: 10px
+    width: 200px
+    margin-bottom: 20px
+
+    input,
+    textarea,
+        width: 100%
+        background-color: transparent
+
+
+    input, textarea
+        border: 2px solid black
+        padding: 5px
+        resize: none
+
+        &:focus-visible
+            outline: none
+            border: 2px solid #f39c12
